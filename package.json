@@ -1,0 +1,33 @@
+{
+  "name": "@falaksingh/sketch",
+  "version": "1.0.0",
+  "description": "Terminal logs with styles",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "terminal",
+    "logs",
+    "styles",
+    "ansi",
+    "colors"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FalakSingh/sketch"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup",
+    "prepare": "npm run build"
+  },
+  "author": "Falak Singh",
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
